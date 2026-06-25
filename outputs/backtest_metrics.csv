@@ -1,0 +1,7 @@
+target,rmse_ml,rmse_jll,improvement_pct,mape_val_pct
+gross_rent,22.5377,95.5336,76.4,8.9
+net_rent,2845.7626,12098.4574,76.5,9.91
+capital_value_inr,3660.569,11292.0033,67.6,12.55
+yield_gross,0.0029,0.0105,72.2,4.32
+vacancy_rate,0.0084,0.0221,62.2,8.43
+absorption,29625.615,85269.1409,65.3,110.24

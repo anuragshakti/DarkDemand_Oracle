@@ -1,0 +1,134 @@
+{
+  "gross_rent": {
+    "rmse_ml_test": 22.5377,
+    "rmse_base_test": 95.5336,
+    "mape_ml_test_pct": 3.91,
+    "rmse_improvement_pct": 76.4,
+    "rmse_val": 58.862,
+    "mape_val_pct": 8.9,
+    "top_features": [
+      [
+        "net_rent_lag1",
+        0.4559
+      ],
+      [
+        "gross_rent_lag1",
+        0.3772
+      ],
+      [
+        "market_enc",
+        0.1138
+      ]
+    ]
+  },
+  "net_rent": {
+    "rmse_ml_test": 2845.7626,
+    "rmse_base_test": 12098.4574,
+    "mape_ml_test_pct": 4.57,
+    "rmse_improvement_pct": 76.5,
+    "rmse_val": 7393.9153,
+    "mape_val_pct": 9.91,
+    "top_features": [
+      [
+        "net_rent_lag1",
+        0.437
+      ],
+      [
+        "gross_rent_lag1",
+        0.3638
+      ],
+      [
+        "market_enc",
+        0.1498
+      ]
+    ]
+  },
+  "capital_value_inr": {
+    "rmse_ml_test": 3660.569,
+    "rmse_base_test": 11292.0033,
+    "mape_ml_test_pct": 5.87,
+    "rmse_improvement_pct": 67.6,
+    "rmse_val": 9105.11,
+    "mape_val_pct": 12.55,
+    "top_features": [
+      [
+        "market_enc",
+        0.4092
+      ],
+      [
+        "capital_value_inr_lag1",
+        0.321
+      ],
+      [
+        "net_rent_lag1",
+        0.1971
+      ]
+    ]
+  },
+  "yield_gross": {
+    "rmse_ml_test": 0.0029,
+    "rmse_base_test": 0.0105,
+    "mape_ml_test_pct": 2.99,
+    "rmse_improvement_pct": 72.2,
+    "rmse_val": 0.0042,
+    "mape_val_pct": 4.32,
+    "top_features": [
+      [
+        "gross_rent_lag1",
+        0.4609
+      ],
+      [
+        "market_enc",
+        0.2197
+      ],
+      [
+        "yield_gross_lag1",
+        0.214
+      ]
+    ]
+  },
+  "vacancy_rate": {
+    "rmse_ml_test": 0.0084,
+    "rmse_base_test": 0.0221,
+    "mape_ml_test_pct": 7.45,
+    "rmse_improvement_pct": 62.2,
+    "rmse_val": 0.0097,
+    "mape_val_pct": 8.43,
+    "top_features": [
+      [
+        "vacancy_rate_lag1",
+        0.3918
+      ],
+      [
+        "net_rent_lag1",
+        0.1805
+      ],
+      [
+        "gross_rent_lag1",
+        0.154
+      ]
+    ]
+  },
+  "absorption": {
+    "rmse_ml_test": 29625.615,
+    "rmse_base_test": 85269.1409,
+    "mape_ml_test_pct": 126.17,
+    "rmse_improvement_pct": 65.3,
+    "rmse_val": 24483.2252,
+    "mape_val_pct": 110.24,
+    "top_features": [
+      [
+        "new_supply",
+        0.4043
+      ],
+      [
+        "total_leased_sqft",
+        0.1791
+      ],
+      [
+        "absorption_ratio",
+        0.0848
+      ]
+    ]
+  }
+}
