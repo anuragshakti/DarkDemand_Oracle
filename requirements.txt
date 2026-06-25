@@ -1,0 +1,22 @@
+# DarkDemand Oracle — Combined Requirements
+# Install: pip install -r requirements.txt
+
+# ── Shared ────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+pandas>=2.0.0
+requests>=2.31.0
+urllib3>=2.0.0
+
+# ── Engine 1: Dark Demand Intelligence ───────────────────────────────────────
+selenium>=4.20.0
+selenium-stealth>=1.0.6
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# ── Engine 2: AI Rent/Yield Forecasting ──────────────────────────────────────
+xgboost>=2.0.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+anthropic>=0.20.0
+joblib>=1.3.0
